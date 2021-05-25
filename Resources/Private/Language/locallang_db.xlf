@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:t3heiner/Resources/Private/Language/locallang_db" date="2021-05-25T13:38:02Z" product-name="t3heiner">
+		<header/>
+		<body>
+			<trans-unit id="tx_t3heiner_domain_model_bxslider" resname="tx_t3heiner_domain_model_bxslider">
+				<source>Bx Slider</source>
+			</trans-unit>
+			<trans-unit id="tx_t3heiner_domain_model_bxslider.bx_enable" resname="tx_t3heiner_domain_model_bxslider.bx_enable">
+				<source>Bx Enable</source>
+			</trans-unit>
+			<trans-unit id="tx_t3heiner_domain_model_bxslider.bx_image_count" resname="tx_t3heiner_domain_model_bxslider.bx_image_count">
+				<source>Bx Image Count</source>
+			</trans-unit>
+			<trans-unit id="tx_t3heiner_domain_model_bxslider.bx_display_time" resname="tx_t3heiner_domain_model_bxslider.bx_display_time">
+				<source>Bx Display Time</source>
+			</trans-unit>
+			<trans-unit id="tt_content.tx_extbase_type.Tx_T3heiner_BxSlider" resname="tt_content.tx_extbase_type.Tx_T3heiner_BxSlider">
+				<source>Typo3 Responsive Template BxSlider</source>
+			</trans-unit>
+			<trans-unit id="tx_t3heiner_grid.name" resname="tx_t3heiner_grid.name">
+				<source>Grid</source>
+			</trans-unit>
+			<trans-unit id="tx_t3heiner_grid.description" resname="tx_t3heiner_grid.description">
+				<source>Grid Element</source>
+			</trans-unit>
+			<trans-unit id="tx_t3heiner_accordion.name" resname="tx_t3heiner_accordion.name">
+				<source>Accordion </source>
+			</trans-unit>
+			<trans-unit id="tx_t3heiner_accordion.description" resname="tx_t3heiner_accordion.description">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="tx_t3heiner_tabs.name" resname="tx_t3heiner_tabs.name">
+				<source>Tabs</source>
+			</trans-unit>
+			<trans-unit id="tx_t3heiner_tabs.description" resname="tx_t3heiner_tabs.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

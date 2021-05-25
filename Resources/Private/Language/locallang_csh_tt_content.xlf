@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:t3heiner/Resources/Private/Language/locallang_csh" date="2021-05-25T13:38:02Z" product-name="t3heiner">
+		<header/>
+		<body>
+			<trans-unit id="bx_enable.description" resname="bx_enable.description">
+				<source>bxEnable</source>
+			</trans-unit>
+			<trans-unit id="bx_image_count.description" resname="bx_image_count.description">
+				<source>bxImageCount</source>
+			</trans-unit>
+			<trans-unit id="bx_display_time.description" resname="bx_display_time.description">
+				<source>time in ms</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

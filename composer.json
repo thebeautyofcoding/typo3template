@@ -1,0 +1,27 @@
+{
+    "name": "heiner/t3heiner",
+    "type": "typo3-cms-extension",
+    "description": "Responsive Template for TYPO3",
+    "authors": [
+        {
+            "name": "Heiner Giehl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Heiner\\T3heiner\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Heiner\\T3heiner\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "typo3-ter/t3heiner": "self.version"
+    }
+}

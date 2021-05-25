@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:t3heiner/Resources/Private/Language/locallang" date="2021-05-25T13:38:02Z" product-name="t3heiner">
+		<header/>
+		<body>
+			<trans-unit id="tx_t3heiner_domain_model_bxslider" resname="tx_t3heiner_domain_model_bxslider">
+				<source>Bx Slider</source>
+			</trans-unit>
+			<trans-unit id="tx_t3heiner_domain_model_bxslider.bx_enable" resname="tx_t3heiner_domain_model_bxslider.bx_enable">
+				<source>Bx Enable</source>
+			</trans-unit>
+			<trans-unit id="tx_t3heiner_domain_model_bxslider.bx_image_count" resname="tx_t3heiner_domain_model_bxslider.bx_image_count">
+				<source>Bx Image Count</source>
+			</trans-unit>
+			<trans-unit id="tx_t3heiner_domain_model_bxslider.bx_display_time" resname="tx_t3heiner_domain_model_bxslider.bx_display_time">
+				<source>Bx Display Time</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

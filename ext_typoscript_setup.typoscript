@@ -1,0 +1,15 @@
+
+config.tx_extbase {
+  persistence {
+    classes {
+
+      Heiner\T3heiner\Domain\Model\BxSlider {
+        mapping {
+          tableName = tt_content
+          recordType = Tx_T3heiner_BxSlider
+        }
+      }
+
+    }
+  }
+}

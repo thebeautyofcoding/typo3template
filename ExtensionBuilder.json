@@ -1,0 +1,145 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    180,
+                    -42
+                ]
+            },
+            "name": "New Model Object",
+            "value": {
+                "actionGroup": {
+                    "_default0_list": false,
+                    "_default1_show": false,
+                    "_default2_new_create": false,
+                    "_default3_edit_update": false,
+                    "_default4_delete": false,
+                    "customActions": []
+                },
+                "name": "BxSlider",
+                "objectsettings": {
+                    "addDeletedField": false,
+                    "addHiddenField": false,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "tt_content",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "420118059334"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "bxEnable",
+                            "propertyType": "Boolean",
+                            "uid": "1431737207501"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "",
+                            "propertyIsExcludeField": false,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": true,
+                            "propertyName": "bxImageCount",
+                            "propertyType": "Integer",
+                            "uid": "1203263180428"
+                        },
+                        {
+                            "allowedFileTypes": "",
+                            "maxItems": "1",
+                            "propertyDescription": "time in ms",
+                            "propertyIsExcludeField": false,
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "bxDisplayTime",
+                            "propertyType": "Integer",
+                            "uid": "31968078381"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "Responsive Template for TYPO3",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 9.5.0-9.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "9.5.0-9.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "t3heiner",
+        "name": "Typo3 Responsive Template",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "Typo3Project",
+                "email": "heiner.giehl@yahoo.com",
+                "name": "Heiner Giehl",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "Grid => index",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "description": "Grid Element",
+                "key": "grid",
+                "name": "Grid"
+            },
+            {
+                "actions": {
+                    "controllerActionCombinations": "Accordion => show",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "description": "",
+                "key": "accordion",
+                "name": "Accordion "
+            },
+            {
+                "actions": {
+                    "controllerActionCombinations": "Tabs => show",
+                    "noncacheableActions": "",
+                    "switchableActions": ""
+                },
+                "description": "",
+                "key": "tabs",
+                "name": "Tabs"
+            }
+        ],
+        "vendorName": "Heiner"
+    },
+    "wires": [],
+    "storagePath": "C:\/xampp\/htdocs\/typo3\/typo3conf\/ext\/",
+    "log": {
+        "last_modified": "2021-05-25 01:38",
+        "extension_builder_version": "9.10.4",
+        "be_user": " (1)"
+    }
+}

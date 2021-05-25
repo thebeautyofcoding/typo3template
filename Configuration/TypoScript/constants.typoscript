@@ -1,0 +1,45 @@
+
+plugin.tx_t3heiner_grid {
+    view {
+        # cat=plugin.tx_t3heiner_grid/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:t3heiner/Resources/Private/Templates/
+        # cat=plugin.tx_t3heiner_grid/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:t3heiner/Resources/Private/Partials/
+        # cat=plugin.tx_t3heiner_grid/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:t3heiner/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_t3heiner_grid//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}
+
+plugin.tx_t3heiner_accordion {
+    view {
+        # cat=plugin.tx_t3heiner_accordion/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:t3heiner/Resources/Private/Templates/
+        # cat=plugin.tx_t3heiner_accordion/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:t3heiner/Resources/Private/Partials/
+        # cat=plugin.tx_t3heiner_accordion/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:t3heiner/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_t3heiner_accordion//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}
+
+plugin.tx_t3heiner_tabs {
+    view {
+        # cat=plugin.tx_t3heiner_tabs/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:t3heiner/Resources/Private/Templates/
+        # cat=plugin.tx_t3heiner_tabs/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:t3heiner/Resources/Private/Partials/
+        # cat=plugin.tx_t3heiner_tabs/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:t3heiner/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_t3heiner_tabs//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}
